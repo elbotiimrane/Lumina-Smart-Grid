@@ -1,0 +1,76 @@
+=== 15_Extended_Nodes.xlsx ===
+Shape: (123, 16)
+Columns: 15 — Extended Node Registry (120 nodes), Unnamed: 1, Unnamed: 2, Unnamed: 3, Unnamed: 4, Unnamed: 5, Unnamed: 6, Unnamed: 7, Unnamed: 8, Unnamed: 9, Unnamed: 10, Unnamed: 11, Unnamed: 12, Unnamed: 13, Unnamed: 14, Unnamed: 15
+Head:
+                       15 — Extended Node Registry (120 nodes) Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6         Unnamed: 7        Unnamed: 8   Unnamed: 9 Unnamed: 10     Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15
+0  Full topology including zone, street, condition, contractor        NaN        NaN        NaN        NaN        NaN        NaN                NaN               NaN          NaN         NaN             NaN         NaN         NaN         NaN         NaN
+1                                                          NaN        NaN        NaN        NaN        NaN        NaN        NaN                NaN               NaN          NaN         NaN             NaN         NaN         NaN         NaN         NaN
+2                                                      Node_ID   Latitude  Longitude  Node_Type     Sector     Street       Zone  Installation_Date  Last_Maintenance  Elevation_m    Height_m  Connected_Grid  Has_Sensor  Has_Camera   Condition  Contractor
+
+========================================
+
+=== 16_Adjacency_Matrix.xlsx ===
+Shape: (417, 6)
+Columns: 16 — Graph Adjacency Matrix (Sparse), Unnamed: 1, Unnamed: 2, Unnamed: 3, Unnamed: 4, Unnamed: 5
+Head:
+                                16 — Graph Adjacency Matrix (Sparse) Unnamed: 1 Unnamed: 2  Unnamed: 3 Unnamed: 4     Unnamed: 5
+0  Edge weights for STGCN graph convolution — weighted by 1/distance        NaN        NaN         NaN        NaN            NaN
+1                                                                NaN        NaN        NaN         NaN        NaN            NaN
+2                                                             Node_i     Node_j     Weight  Distance_m  Edge_Type  Bidirectional
+
+========================================
+
+=== 17_Traffic_30min_30days.xlsx ===
+Shape: (57603, 12)
+Columns: 17 — 30-Day Traffic at 30-min Granularity, Unnamed: 1, Unnamed: 2, Unnamed: 3, Unnamed: 4, Unnamed: 5, Unnamed: 6, Unnamed: 7, Unnamed: 8, Unnamed: 9, Unnamed: 10, Unnamed: 11
+Head:
+                                  17 — 30-Day Traffic at 30-min Granularity Unnamed: 1   Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6   Unnamed: 7  Unnamed: 8 Unnamed: 9 Unnamed: 10     Unnamed: 11
+0  57,600 records — 30 days × 48 slots × 40 nodes | includes Ramadan effect        NaN          NaN        NaN        NaN        NaN        NaN          NaN         NaN        NaN         NaN             NaN
+1                                                                       NaN        NaN          NaN        NaN        NaN        NaN        NaN          NaN         NaN        NaN         NaN             NaN
+2                                                                 Timestamp    Node_ID  Pedestrians   Vehicles   Cyclists       Hour     Minute  Day_of_Week  Is_Weekend    Is_Rush    Is_Night  Ramadan_Effect
+
+========================================
+
+=== 18_Lamp_Energy_30days.xlsx ===
+Shape: (57603, 14)
+Columns: 18 — Lamp-Level 30-Day Energy Log, Unnamed: 1, Unnamed: 2, Unnamed: 3, Unnamed: 4, Unnamed: 5, Unnamed: 6, Unnamed: 7, Unnamed: 8, Unnamed: 9, Unnamed: 10, Unnamed: 11, Unnamed: 12, Unnamed: 13
+Head:
+           18 — Lamp-Level 30-Day Energy Log Unnamed: 1      Unnamed: 2   Unnamed: 3      Unnamed: 4          Unnamed: 5 Unnamed: 6 Unnamed: 7    Unnamed: 8     Unnamed: 9 Unnamed: 10   Unnamed: 11      Unnamed: 12 Unnamed: 13
+0  57,600 records — 30 days × 24h × 80 lamps        NaN             NaN          NaN             NaN                 NaN        NaN        NaN           NaN            NaN         NaN           NaN              NaN         NaN
+1                                        NaN        NaN             NaN          NaN             NaN                 NaN        NaN        NaN           NaN            NaN         NaN           NaN              NaN         NaN
+2                                  Timestamp    Lamp_ID  Brightness_pct  Max_Power_W  Active_Power_W  Reactive_Power_VAR  Voltage_V  Current_A  Power_Factor  Temperature_C      Status  Dimming_Mode  kWh_Accumulated       CO2_g
+
+========================================
+
+=== 19_Grid_30days.xlsx ===
+Shape: (5763, 17)
+Columns: 19 — Transformer Grid — 30 Days, Unnamed: 1, Unnamed: 2, Unnamed: 3, Unnamed: 4, Unnamed: 5, Unnamed: 6, Unnamed: 7, Unnamed: 8, Unnamed: 9, Unnamed: 10, Unnamed: 11, Unnamed: 12, Unnamed: 13, Unnamed: 14, Unnamed: 15, Unnamed: 16
+Head:
+                  19 — Transformer Grid — 30 Days      Unnamed: 1    Unnamed: 2 Unnamed: 3 Unnamed: 4     Unnamed: 5          Unnamed: 6           Unnamed: 7    Unnamed: 8 Unnamed: 9     Unnamed: 10 Unnamed: 11 Unnamed: 12  Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnamed: 16
+0  5,760 records — 8 transformers × 24h × 30 days             NaN           NaN        NaN        NaN            NaN                 NaN                  NaN           NaN        NaN             NaN         NaN         NaN          NaN         NaN         NaN         NaN
+1                                             NaN             NaN           NaN        NaN        NaN            NaN                 NaN                  NaN           NaN        NaN             NaN         NaN         NaN          NaN         NaN         NaN         NaN
+2                                       Timestamp  Transformer_ID  Capacity_kVA   Load_pct  Active_kW  Reactive_kVAR  Voltage_Primary_kV  Voltage_Secondary_V  Frequency_Hz    THD_pct  Power_Loss_pct  Oil_Temp_C    Overload  Grid_Status   Phase_A_A   Phase_B_A   Phase_C_A
+
+========================================
+
+=== 22_Weather_30days.xlsx ===
+Shape: (723, 15)
+Columns: 22 — Weather Data — 30 Days Hourly, Unnamed: 1, Unnamed: 2, Unnamed: 3, Unnamed: 4, Unnamed: 5, Unnamed: 6, Unnamed: 7, Unnamed: 8, Unnamed: 9, Unnamed: 10, Unnamed: 11, Unnamed: 12, Unnamed: 13, Unnamed: 14
+Head:
+                        22 — Weather Data — 30 Days Hourly Unnamed: 1 Unnamed: 2    Unnamed: 3    Unnamed: 4      Unnamed: 5      Unnamed: 6    Unnamed: 7 Unnamed: 8   Unnamed: 9 Unnamed: 10 Unnamed: 11    Unnamed: 12 Unnamed: 13                       Unnamed: 14
+0  720 records — includes brightness recommendation column        NaN        NaN           NaN           NaN             NaN             NaN           NaN        NaN          NaN         NaN         NaN            NaN         NaN                               NaN
+1                                                      NaN        NaN        NaN           NaN           NaN             NaN             NaN           NaN        NaN          NaN         NaN         NaN            NaN         NaN                               NaN
+2                                                Timestamp    Weather     Temp_C  Feels_Like_C  Humidity_pct  Wind_Speed_kmh  Wind_Direction  Pressure_hPa  Fog_Level  Ambient_Lux     Rain_mm    UV_Index  Visibility_km  Dust_Index  Recommended_Brightness_Boost_pct
+
+========================================
+
+=== 27_STGCN_Tensor_Metadata.xlsx ===
+Shape: (9, 8)
+Columns: 27 — STGCN Tensor Metadata, Unnamed: 1, Unnamed: 2, Unnamed: 3, Unnamed: 4, Unnamed: 5, Unnamed: 6, Unnamed: 7
+Head:
+                                      27 — STGCN Tensor Metadata Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4   Unnamed: 5 Unnamed: 6 Unnamed: 7
+0  Shape, dtype, and feature mapping for each model input tensor        NaN        NaN        NaN        NaN          NaN        NaN        NaN
+1                                                            NaN        NaN        NaN        NaN        NaN          NaN        NaN        NaN
+2                                                         Tensor      Shape      Dtype  Feature_0  Feature_1  Source_File      Notes  Feature_2
+
+========================================
