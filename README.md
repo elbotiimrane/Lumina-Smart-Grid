@@ -249,13 +249,6 @@ This project explores the intersection of:
 
 > *Luminia Smart Grid aims to redefine urban infrastructure through intelligent, adaptive, and sustainable AI-driven systems.*
 
----
-
-# 📄 License
-
-MIT License
-
----
 
 <div align="center">
 
