@@ -1,90 +1,131 @@
 <div align="center">
 
-# ⚡ Luminia Smart Grid
+# 🌃 Luminia Smart Grid
 ### *AI-Powered Smart City Infrastructure Platform*
 
-<img src="https://img.shields.io/badge/AI-GNN-blue?style=for-the-badge" />
-<img src="https://img.shields.io/badge/STGCN-Traffic%20Prediction-purple?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Smart-City-green?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Energy-Optimization-orange?style=for-the-badge" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Graph-AI-4F46E5?style=for-the-badge&logo=graphql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/STGCN-Traffic%20Prediction-9333EA?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Smart-City-10B981?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Energy-Optimization-F59E0B?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Complete-success?style=for-the-badge"/>
+</p>
 
 ---
 
-### 🌆 Predict • Optimize • Illuminate
+<h3>💡 Predict • Optimize • Illuminate</h3>
 
-*An intelligent smart-city platform using Graph Neural Networks, adaptive lighting, and smart-grid optimization to build the next generation of urban infrastructure.*
+<p>
+Luminia Smart Grid is a fully integrated AI-powered smart city platform combining Graph Neural Networks, adaptive lighting, smart-grid optimization, and intelligent infrastructure analytics to simulate next-generation urban systems.
+</p>
+
+---
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&color=00F7FF&center=true&vCenter=true&width=750&lines=AI-Powered+Urban+Infrastructure;Graph+Neural+Network+Optimization;Adaptive+Smart+Lighting+System;Intelligent+Energy+Management;Next-Generation+Smart+City+Platform" />
 
 </div>
 
 ---
 
-# ✨ Overview
+# ⚡ Overview
 
-**Luminia Smart Grid** is a futuristic AI-powered smart city system designed to simulate and optimize urban energy infrastructure.
+**Luminia Smart Grid** is an advanced smart-city AI platform designed to optimize urban lighting, energy efficiency, and infrastructure intelligence through graph-based machine learning and predictive analytics.
 
-The platform combines:
+The platform integrates:
 
-- 🧠 Graph Neural Networks (STGCN)
+- 🧠 Spatio-Temporal Graph Neural Networks (STGCN)
+- 🌆 Urban traffic prediction
+- 💡 Adaptive street lighting
 - ⚡ Smart-grid optimization
-- 🌃 Adaptive public lighting
-- 📊 Predictive traffic analytics
 - 🛠️ NLP-based fault analysis
-- 🌐 Graph-based infrastructure intelligence
+- 🌐 Graph-based infrastructure modeling
+- 📊 Real-time dashboard visualization
 
 ---
 
 # 🚀 Core Features
 
-## 🌉 Graph-Based City Modeling
-Represent the city as a dynamic graph of:
+## 🌉 Intelligent Graph Infrastructure
+
+The entire city is modeled as a dynamic graph containing:
+
 - Lamp posts
 - Roads
 - Intersections
-- Electrical connections
+- Electrical grids
+- Urban sectors
+- Infrastructure nodes
 
 ---
 
-## 🧠 AI Traffic Prediction
-Predict:
-- Pedestrian flow
-- Vehicle density
-- Urban activity patterns
+## 🧠 AI Traffic Prediction Engine
+
+Predicts:
+
+- 🚶 Pedestrian movement
+- 🚗 Vehicle flow
+- 🌃 Urban activity patterns
+- 📈 Temporal traffic evolution
 
 Using:
-- **STGCN**
-- Temporal forecasting
+- STGCN
 - Spatial graph learning
+- Temporal forecasting
 
 ---
 
-## 💡 Adaptive Lighting Engine
-Dynamically adjust streetlight intensity based on:
-- Predicted traffic
-- Weather conditions
-- Time of day
-- Energy demand
+## 💡 Adaptive Lighting System
+
+Dynamically adjusts streetlight intensity based on:
+
+- Predicted traffic density
+- Environmental conditions
+- Time-based demand
+- Energy optimization policies
+
+Benefits:
+- ⚡ Reduced energy consumption
+- 🌱 Sustainable infrastructure
+- 🌃 Intelligent urban illumination
 
 ---
 
-## ⚡ Smart Grid Optimization
-Optimize:
+## ⚙️ Smart Grid Optimization
+
+Optimizes:
 - Electrical topology
 - Energy distribution
+- Infrastructure efficiency
 - Maintenance routing
-- Power efficiency
 
 Algorithms:
-- Kruskal MST
-- Bellman-Ford
+- Kruskal Minimum Spanning Tree
+- Bellman-Ford Shortest Path
 
 ---
 
-## 🛠️ Intelligent Fault Detection
-Analyze maintenance reports using NLP:
+## 🛠️ NLP Fault Intelligence
+
+Analyzes infrastructure reports using Natural Language Processing:
+
 - Short circuits
-- Lamp failures
 - Voltage anomalies
-- Infrastructure alerts
+- Lamp failures
+- Grid instability
+- Maintenance alerts
+
+---
+
+## 📊 Real-Time Dashboard
+
+Interactive visualization platform featuring:
+
+- Smart-city graph topology
+- Traffic heatmaps
+- Lighting states
+- Energy analytics
+- Infrastructure monitoring
+- System metrics
 
 ---
 
@@ -93,40 +134,43 @@ Analyze maintenance reports using NLP:
 ```mermaid
 graph TD
 
-A[Simulated Urban Data] --> B[Graph Construction]
-B --> C[STGCN Prediction Engine]
-C --> D[Adaptive Lighting System]
-D --> E[Energy Optimization]
-E --> F[Smart Grid Analytics]
-F --> G[Dashboard & Visualization]
+A[🌆 Simulated Smart-City Data] --> B[🌐 Graph Construction Layer]
+B --> C[🧠 STGCN Prediction Engine]
+C --> D[💡 Adaptive Lighting Controller]
+D --> E[⚡ Smart Grid Optimization]
+E --> F[🛠️ NLP Fault Analysis]
+F --> G[📊 Dashboard & Visualization]
 ```
 
 ---
 
-# 🧪 Simulated Data Environment
+# 🧪 Simulated Smart-City Environment
 
-The platform currently uses realistic synthetic data including:
+The platform operates using realistic synthetic urban datasets including:
 
-- 🚗 Traffic flow
-- 🚶 Pedestrian activity
-- ⚡ Energy consumption
-- 🌦️ Weather conditions
-- 🛠️ Maintenance reports
-- 🌃 Lamp states
-- 🔌 Electrical topology
+| Data Type | Description |
+|---|---|
+| 🚗 Traffic Data | Vehicle flow simulation |
+| 🚶 Pedestrian Data | Human movement patterns |
+| ⚡ Energy Data | Smart-grid consumption |
+| 🌦️ Weather Data | Environmental conditions |
+| 🛠️ Fault Reports | Infrastructure anomalies |
+| 💡 Lamp States | Dynamic lighting states |
+| 🌐 Graph Topology | Urban connectivity |
 
 ---
 
 # 🛠️ Tech Stack
 
-| Category | Technologies |
-|---|---|
-| AI / ML | PyTorch, STGCN |
-| Graphs | NetworkX, PyTorch Geometric |
-| Backend | Python |
-| Data | Pandas, NumPy |
-| Visualization | Streamlit, Plotly |
-| Database | Neo4j, PostgreSQL |
+<div align="center">
+
+| AI / ML | Graph Systems | Backend | Visualization |
+|---|---|---|---|
+| PyTorch | NetworkX | Python | Streamlit |
+| STGCN | PyTorch Geometric | FastAPI | Plotly |
+| Transformers | Neo4j | Pandas | Power BI |
+
+</div>
 
 ---
 
@@ -137,27 +181,31 @@ Luminia-Smart-Grid/
 │
 ├── data/               # Simulated datasets
 ├── graph/              # Graph construction & topology
-├── models/             # STGCN and ML models
-├── optimization/       # Graph optimization algorithms
+├── models/             # STGCN and AI models
+├── optimization/       # Smart-grid optimization
 ├── nlp/                # Fault analysis module
-├── dashboard/          # Smart city visualization
+├── dashboard/          # Visualization interface
 ├── notebooks/          # Research experiments
 └── docs/               # Documentation
 ```
 
 ---
 
-# 📈 Current Progress
+# 📈 Development Progress
+
+```text
+█████████████████████████ 100%
+```
 
 - [x] Smart-city simulation environment
-- [x] Synthetic dataset generation
+- [x] Synthetic data generation
 - [x] System architecture design
-- [ ] Graph construction
-- [ ] STGCN implementation
-- [ ] Adaptive lighting engine
-- [ ] Energy optimization module
-- [ ] NLP fault analysis
-- [ ] Dashboard system
+- [x] Graph construction
+- [x] STGCN implementation
+- [x] Adaptive lighting engine
+- [x] Grid optimization layer
+- [x] NLP fault analysis
+- [x] Dashboard visualization
 
 ---
 
@@ -165,39 +213,53 @@ Luminia-Smart-Grid/
 
 ✔ Improve urban energy efficiency  
 ✔ Reduce unnecessary lighting consumption  
-✔ Predict urban activity using Graph AI  
-✔ Simulate intelligent infrastructure systems  
-✔ Explore scalable smart-city technologies  
+✔ Build intelligent adaptive infrastructure  
+✔ Optimize smart-grid operations  
+✔ Explore graph AI for smart cities  
+✔ Simulate scalable future-city systems  
 
 ---
 
-# 🔮 Future Roadmap
-
-- 🌐 Real-time IoT integration
-- 🤖 Reinforcement learning optimization
-- 🛰️ Edge AI deployment
-- 🏙️ Digital twin simulation
-- ⚡ Real-time energy orchestration
-- 🔐 Smart-grid cybersecurity
-
----
-
-# 🧠 Research Focus
+# 📊 Research Domains
 
 This project explores the intersection of:
 
 - Smart Cities
 - Graph Neural Networks
 - Energy AI
-- Urban Intelligence
 - Predictive Infrastructure
 - Sustainable Computing
+- Urban Intelligence
+- Intelligent Transportation Systems
+
+---
+
+# 🔮 Future Enhancements
+
+- 🌐 Real-time IoT integration
+- 🤖 Reinforcement learning optimization
+- 🛰️ Edge AI deployment
+- 🏙️ Digital twin simulation
+- ⚡ Real-time smart-grid orchestration
+- 🔐 Infrastructure cybersecurity
+
+---
+
+# 🌟 Vision
+
+> *Luminia Smart Grid aims to redefine urban infrastructure through intelligent, adaptive, and sustainable AI-driven systems.*
+
+---
+
+# 📄 License
+
+MIT License
 
 ---
 
 <div align="center">
 
-## 🌃 Luminia Smart Grid
-### *Building the Intelligence Behind Future Cities*
+# 🌃 Luminia Smart Grid
+### ⚡ Building the Intelligence Behind Future Cities ⚡
 
 </div>
